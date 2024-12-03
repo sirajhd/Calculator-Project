@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form id="calculator-form">
+                <div class="link">
+                    <a href="http://www.sirajhdtech10.wuaze.com/?i=1"><span style="color: chocolate;">HD</span><span style="color: #fff;">Tech11</span></a>
+                </div>
+                <div class="display">
+                    <input type="text" id="display" readonly>
+                </div>
+                <div>
+                    <input type="button" value="AC" class="operator" data-action="clear">
+                    <input type="button" value="AD" class="operator" data-action="delete">
+                    <input type="button" value="." class="operator" data-value=".">
+                    <input type="button" value="/" class="operator" data-value="/">
+                </div>
+                <div>
+                    <input type="button" value="7"class="operator" data-value="7">
+                    <input type="button" value="8" class="operator" data-value="8">
+                    <input type="button" value="9" class="operator" data-value="9">
+                    <input type="button" value="*" class="operator" data-value="*">
+                </div>
+                <div>
+                    <input type="button" value="4" class="operator" data-value="4">
+                    <input type="button" value="5"  class="operator"data-value="5">
+                    <input type="button" value="6" class="operator" data-value="6">
+                    <input type="button" value="-" class="operator" data-value="-">
+                </div>
+                <div>
+                    <input type="button" value="1"class="operator" class="operator"data-value="1">
+                    <input type="button" value="2" class="operator"data-value="2">
+                    <input type="button" value="3" class="operator"data-value="3">
+                    <input type="button" value="+" class="operator" data-value="+">
+                </div>
+                <div class="last">
+                    <input type="button" value="00" class="operator"data-value="00">
+                    <input type="button" value="0" class="operator"data-value="0">
+                    <input type="button" value="="  class="equal" data-action="calculate">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
